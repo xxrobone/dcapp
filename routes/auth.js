@@ -6,6 +6,8 @@ const config = require('config');
 const auth = require('../middleware/auth');
 const { check, validationResult } = require('express-validator');
 
+// auth now working using postman and jwt tokens
+
 const User = require('../models/User');
 
 // @route   GET api/auth
